@@ -1,4 +1,5 @@
-##CSS-Personal-Site
+# CSS-Personal-Site
 
-#1 Link
-** https://hanamurayama.github.io/css-personal-site/
+## Quick Link
+* https://hanamurayama.github.io/css-personal-site/
+
