@@ -1,1 +1,164 @@
+/* TAG SELECTOR */
 
+a{
+  font-family: "Raleway Medium", sans-serif;
+  color: white;
+  margin: 10px 20px;
+  /* delete underline */
+  text-decoration: none;
+}
+
+a:hover{
+  color: #636466;
+}
+
+body{
+  margin: 0;
+  /* margin: 0 sets every side 0px */
+  text-align: center;
+  /*font-family: "Raleway Medium", Helvetica, sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+  color: #636466;
+}
+
+h1{
+  margin-top: 0;
+  font-family: "Base 9 Sans OT Reg", Gill Sans, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 4.375rem;
+  /*Make the font size dynamic: 60/16px = 3.75 * 100 = 375%*/
+  /* 375% = 3.75em */
+  color: #f59493;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  font-family: "Base 9 Sans OT Reg", Gill Sans, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 2.25rem;
+  color: #636466;
+  margin: 0;
+}
+
+h3{ /* also affects .profession */
+  font-size: 1.5rem;
+  color: #f59493;
+  /*font-family: "Raleway Medium", Gills Sans, sans-serif;*/
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: #f59493;
+  border-width: 5px;
+  margin: 25px auto 25px auto;
+}
+
+p{
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+
+
+/* CLASS SELECTOR */
+
+/***************** top container *****************/
+.top-container{
+  background-color: #fef1ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.profession{
+  font-size: 1.125em;
+  letter-spacing: 2.5px;
+  font-family: "Raleway", Gills Sans, sans-serif;
+  color: #636466;
+}
+
+/***************** middle container *****************/
+.profile-container{
+  background-color: #F5F5F5;
+  padding: 50px 0;
+}
+
+.my-img{
+  width: 30%;
+  border-radius: 10px;
+}
+
+.skill-container{
+  width: 80%;
+  margin: 50px auto 0 auto;
+  background-color: white;
+}
+
+.skill-row{
+  margin: 50px auto 50px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.gd-skill-img{
+  width: 50%;
+  border-radius: 10px;
+  margin-right: 30px;
+  float: left;
+}
+
+.coding-skill-img{
+  width: 40%;
+  border-radius: 10px;
+  margin-left: 30px;
+  float: right;
+}
+
+.contact-container{
+  padding: 50px 0;
+  background-color: #F5F5F5;
+}
+
+/* FIX THE BUTTON */
+.btn {
+  border-radius: 15px;
+  font-family: "Raleway SemiBold", Gills Sans, sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  background: #636466;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.btn:hover {
+  background: #f59493;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/***************** bottom container *****************/
+.bottom-container{
+  background-color: #fbc7c2;
+  padding: 40px 0 20px;
+}
+
+.copy-rights{
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
